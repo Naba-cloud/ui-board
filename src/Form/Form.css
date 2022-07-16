@@ -1,0 +1,59 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:  black!important;
+    color:white;
+}
+.main-heading
+{
+    text-align: center;
+    margin-top:20px;
+    
+
+}
+.card{
+    border:1px solid #F15412!important;
+    box-shadow: 1px 1px!important;
+}
+input{
+    box-shadow: none!important;
+    border-color: #F15412!important;
+    border-top:none!important;
+    border-left:none!important;
+    border-right: none!important;
+    border-bottom-left-radius: 0%!important;
+    border-bottom-right-radius: 0%!important;
+    color:white!important;
+}
+::placeholder{
+    color: white!important;
+}
+label{
+    margin-top:4px;
+}
+button{
+    background-color: #F15412!important;
+    box-shadow: none!important;
+    color:white!important
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border-radius: 80%;
+    opacity: 0.6;
+    background-color:#F15412!important;
+   
+  }
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #F15412!important; 
+    border-radius: 10px!important;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #F15412!important; 
+    border-radius: 10px!important;
+  }
+  
+  
